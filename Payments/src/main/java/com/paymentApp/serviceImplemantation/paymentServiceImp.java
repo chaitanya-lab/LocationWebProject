@@ -1,4 +1,4 @@
-package com.paymentApp.services;
+package com.paymentApp.serviceImplemantation;
 
 import java.util.List;
 import java.util.regex.Pattern;
@@ -12,6 +12,7 @@ import com.paymentApp.Exception.CardAlreadyLinked;
 import com.paymentApp.Exception.CardNumberNotMatch;
 import com.paymentApp.Exception.CvvLengthNotMatch;
 import com.paymentApp.dao.paymentsDao;
+import com.paymentApp.services.PaymentService;
 
 @Service
 public class paymentServiceImp implements PaymentService {
